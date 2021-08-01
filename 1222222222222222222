@@ -1400,7 +1400,7 @@ end
  
 local function PopulateVGUIElements()
 	Window = vgui.Create( "DFrame" )
-	Window:SetSize( 700, 620 )
+	Window:SetSize( 338, 305 )
 	Window:SetPos( ScrW() /2 -( Window:GetWide() /2 ), ScrH() /2 -( Window:GetTall() /2 ) )
 	Window:SetTitle( string.rep( " ", Window:GetWide() /8 ) ..	"" )
 	Window:ShowCloseButton( false )
